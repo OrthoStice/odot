@@ -60,4 +60,10 @@ RSpec.configure do |config|
   # The different available types are documented in the features, such as in
   # https://relishapp.com/rspec/rspec-rails/v/3-0/docs
   config.infer_spec_type_from_file_location!
+
+end
+  RSpec.configure do |c|
+  # RSpec::Core::ExampleGroup#example is deprecated and will be removed in RSpec 3.
+  # [...] snippet to continue making this method available in RSpec 2.99 and RSpec 3:
+  c.expose_current_running_example_as :example
 end
