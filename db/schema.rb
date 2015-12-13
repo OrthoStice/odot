@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20151212205208) do
+=======
+ActiveRecord::Schema.define(version: 20151212175205) do
+>>>>>>> master
 
   create_table "todo_items", force: :cascade do |t|
     t.integer  "todo_list_id"

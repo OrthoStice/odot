@@ -174,7 +174,11 @@ DEPENDENCIES
   rspec-rails (~> 2.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+<<<<<<< HEAD
   shoulda-matchers (= 3.0.1)
+=======
+  shoulda-matchers (~> 3.0.1)
+>>>>>>> master
   spring
   sqlite3
   turbolinks
